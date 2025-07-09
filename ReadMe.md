@@ -16,13 +16,6 @@ This gamified application encourages users to care for a plant through simple in
 
 ---
 
-## Live Demo & Screenshot
-
-🌐 **Live Demo: _*https://virtual-plant-care-app.netlify.app/*_
-
-### 📷 **Screenshot:**
-
-![App Screenshot](./assets/img/Screenshoot.png)
 
 ---
 
@@ -50,6 +43,14 @@ You unlock medals based on how many interactions you've made:
 
 A popup will celebrate every new badge you earn! 🎉
 
+---
+## Live Demo & Screenshot
+
+🌐 **Live Demo: _*https://virtual-plant-care-app.netlify.app/*_
+
+### 📷 **Screenshot:**
+
+![App Screenshot](./assets/img/Screenshoot.png)
 ---
 
 
