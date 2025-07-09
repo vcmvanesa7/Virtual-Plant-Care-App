@@ -18,8 +18,9 @@ This gamified application encourages users to care for a plant through simple in
 
 ## Live Demo & Screenshot
 
-🌐 **Live Demo: _*https://virtual-plant-care-app.netlify.app/*_ 
-📷 **Screenshot:**
+🌐 **Live Demo: _*https://virtual-plant-care-app.netlify.app/*_
+
+###📷 **Screenshot:**
 
 ![App Screenshot](./assets/img/Screenshoot.png)
 
