@@ -16,9 +16,6 @@ This gamified application encourages users to care for a plant through simple in
 
 ---
 
-
----
-
 ## Rules & Logic
 
 ### Point System (Score)
@@ -51,6 +48,7 @@ A popup will celebrate every new badge you earn! 🎉
 ### 📷 **Screenshot:**
 
 ![App Screenshot](./assets/img/Screenshoot.png)
+
 ---
 
 
