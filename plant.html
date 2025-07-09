@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Your Virtual Plant</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link rel="icon" type="image/png" href="./assets/img/favicon.ico" />
+</head>
+
+<body>
+
+    <!-- Welcome Screen -->
+    <section id="welcome-screen">
+        <h1>🌱 Welcome to Your Virtual Plant</h1>
+        <p>Take care of it with love and help it grow step by step.</p>
+
+        <form id="user-form">
+            <label for="ownerName">Your name:</label>
+            <input type="text" id="ownerName" placeholder="Write your name" required />
+
+            <label for="ownerAge">Your age:</label>
+            <input type="number" id="ownerAge" placeholder="Write your age" required />
+
+            <label for="plantName">Plant's name:</label>
+            <input type="text" id="plantName" placeholder="What do you want to name your little plant?" required />
+
+            <button type="submit">🌿 Start</button>
+        </form>
+    </section>
+
+    <!-- Loading Spinner -->
+    <section id="loading-screen" style="display: none;">
+        <div class="spinner"></div>
+        <p>Loading your plant... 🌿</p>
+    </section>
+
+    <!-- Main Interaction Screen -->
+    <div class="container-care-plant hidden">
+        <section id="main-screen" class="plant-layout">
+            <div id="main-layout">
+
+                <!-- Left side: interaction -->
+                <div id="interaction-container">
+                    <h2>Hello <span id="user-name"></span> 👋</h2>
+                    <p>Age: <span id="user-age"></span> years old</p>
+                    <h3>This is your plant: <strong id="plant-name"></strong> 🪴</h3>
+
+                    <!-- Care buttons -->
+                    <div id="care-actions">
+                        <button id="btn-water">💧 Water</button>
+                        <button id="btn-sun">☀️ Give Sun</button>
+                        <button id="btn-fertilizer">🌿 Fertilize</button>
+                        <button id="btn-talk">🗣️ Talk nicely</button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Badge collection section -->
+            <div id="badge-section">
+                <h4>🏅 Achievements Unlocked:</h4>
+                <ul id="badge-list"></ul>
+            </div>
+        </section>
+
+        <!-- Right side: plant image -->
+        <section class="right-size">
+            <div id="plant-container">
+                <img id="plant-image" src="assets/img/0.png" alt="Your virtual plant" />
+                <div id="plant-shadow"></div>
+                <p>🌟 Score: <span id="score-display">0</span></p>
+            </div>
+
+            <div id="progress">
+                <p>Interactions: <span id="interaction-count">0</span></p>
+                <p>Current stage: <span id="current-stage">Baby 🌱</span></p>
+                <div id="care-message"></div>
+
+                <!-- Progress Bar -->
+                <div class="progress-bar-container">
+                    <div id="progress-bar" class="progress-bar-fill"></div>
+                </div>
+            </div>
+
+            <!-- Reset Button -->
+            <div class="Reset-container">
+                <div>
+                    <button id="btn-reset">🗑️</button>
+                </div>
+                <div>
+                    <p> Clear data and start again</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Badge Unlock Popup -->
+    <div id="badge-popup" class="hidden">
+        <div class="badge-card">
+            <p id="badge-icon">🏅</p>
+            <h3 id="badge-title">New Badge</h3>
+            <p id="badge-description">Congrats! You’ve unlocked a badge!</p>
+        </div>
+    </div>
+
+    <script src="./script.js"></script>
+</body>
+
+</html>
