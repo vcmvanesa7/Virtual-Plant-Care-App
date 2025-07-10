@@ -90,5 +90,4 @@ Entregable/
 ## 👩‍💻 Created By
 
 **Vanesa Carrillo**  
-_Creative developer, designer, and creator with a clear mission, to create joyful and meaningful digital experiences. 
 
